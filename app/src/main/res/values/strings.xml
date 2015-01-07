@@ -4,8 +4,9 @@
     <string name="app_name">SimplyScan Pro</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="main_message">This is the Pro key for SimplyScan! Now that you have it installed, all you
-    need to do is simply run the free version of SimplyScan and it will be upgraded to SimplyScan Pro.\n\nBe
-    sure to keep this key installed, as the free version checks for it each time it is run.</string>
+    <string name="main_message">This is the Pro key for SimplyScan!\n\nNow that you have it installed, all you
+    need to do is simply run the free version of SimplyScan and it will be upgraded to SimplyScan Pro, keeping
+    all of your current documents.\n\nBe sure to keep this key installed, as the free version checks for it each
+    time it is run.</string>
 
 </resources>

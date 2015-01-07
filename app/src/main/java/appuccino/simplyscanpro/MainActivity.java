@@ -1,6 +1,7 @@
 package appuccino.simplyscanpro;
 
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.text.Spannable;
@@ -25,15 +26,10 @@ public class MainActivity extends ActionBarActivity {
         s.setSpan(new TypefaceSpan(this, "Dancing-Script.ttf"), 0, s.length(),
                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
-// Update the action bar title with the TypefaceSpan instance
+        // Update the action bar title with the TypefaceSpan instance
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(s);
-
-//        TextView actionBarTitle = getActionBarTextView("mTitleTextView")
-//        actionBarTitle.setTextColor(getResources().getColor(R.color.white));
-//        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Dancing-Script");
-//        actionBarTitle.setTypeface(tf);
-//        actionBarTitle.setTextSize(35);
+        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.blue)));
     }
 
 
